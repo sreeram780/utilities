@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
+//         Load more
+
+//     if (CGRectIntersectsRect(scrollView.bounds, CGRectMake(0, self.collectionView.contentSize.height, CGRectGetWidth(self.view.frame), 40)) && self.collectionView.contentSize.height > 0)
+//     {
+//         [self more];
+//     }
+
         return true
     }
 
